@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyPage Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/img/dcs2.png">
+  <link href="assets/img/dcs2.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPage
+  * Template URL: https://bootstrapmade.com/mypage-bootstrap-personal-template/
+  * Updated: Sep 20 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+<style>
+  
+</style>
+  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-top">
+    
+
+    </div>
+
+   <nav id="navmenu" class="navmenu btn-primary">
+
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house-fill"></i>&nbspHome</a></li>
+        <li><a href="Library.html"><i class="bi bi-collection-fill"></i>&nbspLibrary</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-calculator"></i><span>&nbspMaths</span> <i class="bi bi-chevron-down toggle-dropdown btn btn-primary"></i></a>
+          <ul>
+            <li><a href="multiplication.html">Multiplication</a></li>
+            <li><a href="division.html">Division</a></li>
+                <li><a href="square root.html">Square & Cube</a></li>
+                <li><a href="mental maths.html">Mental Maths</a></li> 
+          </ul>
+        </li>
+        <!-- <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Maths</a></li> -->
+
+        <li><a href="dictionary.html"><i class="bi bi-journal-check"></i>Dictionary</a></li>
+        <li><a href="word Scramble.html"><i class="bi bi-text-paragraph"></i>Word Scramble</a></li>
+        <li><a href="Thesaurus word.html"><i class="bi bi-anthropic"></i>Thesaurus</a></li>
+        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
+      </ul>
+    </nav>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section>
+      <div class="container container-max py-5">
+    <div class="card p-4">
+      <div class="row g-3 align-items-center">
+        <div class="col-md-7">
+          <h3 class="m-0">Online Dictionary</h3>
+          
+        </div>
+
+        <!-- <div class="col-md-5 text-md-end">
+          <button id="randomBtn" class="btn btn-outline-secondary me-2">Random Word</button>
+          <button id="favoritesOpenBtn" class="btn btn-outline-primary">Favorites</button>
+        </div> -->
+
+        <div class="col-12">
+          <form id="searchForm" class="input-group">
+            <input id="query" class="form-control form-control-lg" placeholder="Type a word (e.g., 'happy')" aria-label="Search word">
+            <button class="btn btn-primary" id="searchBtn" type="submit">Search</button>
+            <button class="btn btn-outline-secondary" id="clearBtn" type="button">Clear</button>
+          </form>
+          <div id="suggestions" class="mt-2"></div>
+        </div>
+
+        <div class="col-12">
+          <div id="resultCard" class="p-3 bg-white rounded-3 card result-section">
+            <div id="intro" class="text-center small-muted">Search a word to see meanings, phonetics and examples.</div>
+
+            <div id="wordView" style="display:none">
+              <div class="d-flex justify-content-between align-items-start">
+                <div>
+                  <div id="wordTitle" class="word-title"></div>
+                  <div id="wordPhon" class="phon mt-1"></div>
+                </div>
+                <div class="text-end">
+                  <div class="mb-2">
+                    <button id="playBtn" class="btn btn-outline-success me-1">🔊 Play</button>
+                    <button id="replayBtn" class="btn btn-outline-secondary me-1">🔁 Replay</button>
+                    <button id="slowBtn" class="btn btn-outline-info">🐢 Slow</button>
+                  </div>
+                  <div>
+                    <button id="saveBtn" class="btn btn-outline-primary fav-btn">☆ Save</button>
+                    <button id="copyBtn" class="btn btn-outline-secondary">📋 Copy</button>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+              <div id="meaningsArea"></div>
+
+              <div class="mt-3">
+                <strong>Phonetics / Audio</strong>
+                <div id="phoneticsList" class="small-muted mt-1"></div>
+              </div>
+
+              <div class="mt-3">
+                <strong>Source</strong>
+                <div class="small-muted">dictionaryapi.dev (Free)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- row -->
+    </div> <!-- card -->
+
+    <!-- Favorites modal (Bootstrap) -->
+    <div class="modal fade" id="favModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Favorites</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="favList" class="list-group"></div>
+            <div id="noFav" class="small-muted mt-2">No favorites yet.</div>
+          </div>
+          <div class="modal-footer">
+            <button id="clearFavBtn" class="btn btn-outline-danger">Clear All</button>
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  // ---------- Config ----------
+  const API_ROOT = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
+
+  // ---------- State ----------
+  let currentWord = '';
+  let lastPlayText = '';
+  let favorites = JSON.parse(localStorage.getItem('dict_favs') || '[]');
+
+  // ---------- Elements ----------
+  const searchForm = document.getElementById('searchForm');
+  const queryEl = document.getElementById('query');
+  const resultCard = document.getElementById('resultCard');
+  const intro = document.getElementById('intro');
+  const wordView = document.getElementById('wordView');
+  const wordTitle = document.getElementById('wordTitle');
+  const wordPhon = document.getElementById('wordPhon');
+  const meaningsArea = document.getElementById('meaningsArea');
+  const phoneticsList = document.getElementById('phoneticsList');
+  const playBtn = document.getElementById('playBtn');
+  const replayBtn = document.getElementById('replayBtn');
+  const slowBtn = document.getElementById('slowBtn');
+  const saveBtn = document.getElementById('saveBtn');
+  const copyBtn = document.getElementById('copyBtn');
+  const randomBtn = document.getElementById('randomBtn');
+  const favoritesOpenBtn = document.getElementById('favoritesOpenBtn');
+  const favList = document.getElementById('favList');
+  const noFav = document.getElementById('noFav');
+  const clearFavBtn = document.getElementById('clearFavBtn');
+  const suggestions = document.getElementById('suggestions');
+  const clearBtn = document.getElementById('clearBtn');
+
+  let favModal = new bootstrap.Modal(document.getElementById('favModal'));
+
+  // ---------- Helpers ----------
+  function showIntro(text){
+    intro.style.display = 'block';
+    wordView.style.display = 'none';
+    intro.textContent = text || 'Search a word to see meanings, phonetics and examples.';
+  }
+
+  function showError(msg){
+    intro.style.display = 'block';
+    wordView.style.display = 'none';
+    intro.textContent = msg;
+  }
+
+  function renderEntry(data){
+    // API returns an array — choose first (most common)
+    const entry = data[0];
+    currentWord = entry.word || '';
+    lastPlayText = currentWord;
+    wordTitle.textContent = entry.word || '';
+    // phonetics text if any (take first phonetic text)
+    const phon = (entry.phonetics || []).find(p => p.text) || {};
+    wordPhon.textContent = phon.text ? phon.text : '';
+    // meanings
+    meaningsArea.innerHTML = '';
+    (entry.meanings || []).forEach(meaning=>{
+      const part = meaning.partOfSpeech || '';
+      const defs = meaning.definitions || [];
+      const block = document.createElement('div');
+      block.className = 'mb-3';
+      const head = document.createElement('div');
+      head.innerHTML = `<div class="tag">${part}</div>`;
+      block.appendChild(head);
+      const ol = document.createElement('ol');
+      ol.className = 'mt-2';
+      defs.forEach(d=>{
+        const li = document.createElement('li');
+        li.innerHTML = `<div>${escapeHtml(d.definition || '')}</div>${d.example ? `<div class="small-muted mt-1">Example: "${escapeHtml(d.example)}"</div>` : ''}${d.synonyms && d.synonyms.length ? `<div class="small-muted mt-1">Synonyms: ${d.synonyms.slice(0,8).join(', ')}</div>` : ''}`;
+        ol.appendChild(li);
+      });
+      block.appendChild(ol);
+      meaningsArea.appendChild(block);
+    });
+
+    // phonetics / audio list
+    phoneticsList.innerHTML = '';
+    if(entry.phonetics && entry.phonetics.length){
+      entry.phonetics.forEach((p, idx)=>{
+        const item = document.createElement('div');
+        const text = p.text ? `<span class="small-muted me-2">${escapeHtml(p.text)}</span>` : '';
+        const audioAvailable = p.audio && p.audio.length;
+        item.innerHTML = text + (audioAvailable ? `<button class="btn btn-sm btn-outline-secondary phon-audio-btn" data-audio="${escapeHtml(p.audio)}">Play audio ${idx+1}</button>` : '');
+        phoneticsList.appendChild(item);
+      });
+      // wire phonetic audio buttons
+      phoneticsList.querySelectorAll('.phon-audio-btn').forEach(b=>{
+        b.addEventListener('click', ()=>{ const url = b.dataset.audio; playAudioUrl(url); });
+      });
+    }
+
+    // show view
+    intro.style.display = 'none';
+    wordView.style.display = 'block';
+
+    // update save btn state
+    saveBtn.classList.toggle('active', favorites.includes(currentWord));
+    saveBtn.textContent = favorites.includes(currentWord) ? '★ Saved' : '☆ Save';
+  }
+
+  function escapeHtml(s){
+    return String(s || '').replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"}[c]; });
+  }
+
+  // ---------- Fetching ----------
+  async function fetchWord(word){
+    if(!word) { showIntro('Type a word and press Search.'); return; }
+    try{
+      intro.style.display = 'block';
+      intro.textContent = 'Looking up "' + word + '"...';
+      wordView.style.display = 'none';
+      const res = await fetch(API_ROOT + encodeURIComponent(word));
+      if(!res.ok){
+        // API returns 404 with JSON message when not found
+        const err = await res.json().catch(()=>({message:'No definition found.'}));
+        showError('No definition found for "' + word + '".');
+        return;
+      }
+      const data = await res.json();
+      renderEntry(data);
+    }catch(err){
+      console.error(err);
+      showError('Network error — please check your connection.');
+    }
+  }
+
+  // ---------- Audio playback ----------
+  function playAudioUrl(url){
+    if(!url) return alert('No audio available for this word.');
+    // Some API audio links may be relative; ensure usable URL
+    const audio = new Audio(url);
+    audio.play().catch(e=>{
+      // fallback to speech synthesis
+      console.warn('Audio play failed, falling back to speechSynthesis', e);
+      speakWord(1.0);
+    });
+  }
+
+  function speakWord(rate=1.0){
+    if(!currentWord) return alert('Open a word first to play pronunciation.');
+    if(!('speechSynthesis' in window)) return alert('Speech not supported in this browser.');
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(currentWord);
+    u.rate = rate;
+    const voices = window.speechSynthesis.getVoices();
+    if(voices && voices.length){
+      // prefer English voice
+      u.voice = voices.find(v => /en/i.test(v.lang)) || voices[0];
+    }
+    window.speechSynthesis.speak(u);
+  }
+
+  // ---------- Favorites ----------
+  function renderFavorites(){
+    favList.innerHTML = '';
+    if(!favorites || favorites.length === 0){
+      noFav.style.display = 'block';
+      return;
+    }
+    noFav.style.display = 'none';
+    favorites.forEach(w=>{
+      const a = document.createElement('button');
+      a.className = 'list-group-item list-group-item-action';
+      a.textContent = w;
+      a.addEventListener('click', ()=>{ queryEl.value = w; fetchWord(w); favModal.hide(); });
+      favList.appendChild(a);
+    });
+  }
+
+  function toggleFavorite(){
+    if(!currentWord) return alert('Open a word first.');
+    if(favorites.includes(currentWord)){
+      favorites = favorites.filter(x => x !== currentWord);
+    } else {
+      favorites.push(currentWord);
+    }
+    localStorage.setItem('dict_favs', JSON.stringify(favorites));
+    renderFavorites();
+    saveBtn.classList.toggle('active', favorites.includes(currentWord));
+    saveBtn.textContent = favorites.includes(currentWord) ? '★ Saved' : '☆ Save';
+  }
+
+  // ---------- Utilities ----------
+  function copyDefinition(){
+    if(!currentWord) return alert('Open a word first.');
+    // collect visible text for copying
+    const blocks = meaningsArea.querySelectorAll('li');
+    const defs = Array.from(blocks).map(li => li.innerText.trim()).join('\\n');
+    const txt = `${currentWord}\\n${wordPhon.innerText}\\n\\nDefinitions:\\n${defs}`;
+    navigator.clipboard?.writeText(txt).then(()=> alert('Definition copied to clipboard.'));
+  }
+
+  function playReplaySlow(action){
+    if(action === 'replay') speakWord(1.0);
+    else if(action === 'slow') speakWord(0.75);
+    else speakWord(1.0);
+  }
+
+  // ---------- Event bindings ----------
+  searchForm.addEventListener('submit', (ev)=>{
+    ev.preventDefault();
+    const q = queryEl.value.trim();
+    if(!q) return;
+    fetchWord(q);
+  });
+
+  // random word: pick from a small prebuilt list so random works offline
+  const RANDOM_POOL = ['happy','computer','puzzle','library','network','joyful','banana','developer','function','bright','quick','calm','brave','begin'];
+  randomBtn.addEventListener('click', ()=> {
+    const w = RANDOM_POOL[Math.floor(Math.random()*RANDOM_POOL.length)];
+    queryEl.value = w;
+    fetchWord(w);
+  });
+
+  playBtn.addEventListener('click', ()=> playReplaySlow('play'));
+  replayBtn.addEventListener('click', ()=> playReplaySlow('replay'));
+  slowBtn.addEventListener('click', ()=> playReplaySlow('slow'));
+
+  saveBtn.addEventListener('click', toggleFavorite);
+  copyBtn.addEventListener('click', copyDefinition);
+
+  favoritesOpenBtn.addEventListener('click', ()=>{ renderFavorites(); favModal.show(); });
+
+  clearFavBtn.addEventListener('click', ()=> {
+    if(!confirm('Clear all favorites?')) return;
+    favorites = [];
+    localStorage.setItem('dict_favs', JSON.stringify(favorites));
+    renderFavorites();
+  });
+
+  clearBtn.addEventListener('click', ()=> {
+    queryEl.value = '';
+    showIntro();
+    suggestions.innerHTML = '';
+  });
+
+  // simple suggestions: local keys (immediate) using RANDOM_POOL + favorites
+  queryEl.addEventListener('input', ()=>{
+    const q = queryEl.value.trim().toLowerCase();
+    suggestions.innerHTML = '';
+    if(!q) return;
+    const pool = Array.from(new Set([...RANDOM_POOL, ...favorites]));
+    const hits = pool.filter(k => k.startsWith(q)).slice(0,6);
+    if(hits.length === 0) return;
+    const list = document.createElement('div');
+    list.className = 'list-group';
+    hits.forEach(h=>{
+      const b = document.createElement('button');
+      b.className = 'list-group-item list-group-item-action';
+      b.textContent = h;
+      b.addEventListener('click', ()=>{ queryEl.value = h; suggestions.innerHTML=''; fetchWord(h); });
+      list.appendChild(b);
+    });
+    suggestions.appendChild(list);
+  });
+
+  // support Enter/Arrow navigation for suggestions could be added next
+
+  // on load, show favorites
+  renderFavorites();
+
+  // preload voices for some browsers (populates voices list)
+  if('speechSynthesis' in window) window.speechSynthesis.getVoices();
+  </script>
+    
+  </script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

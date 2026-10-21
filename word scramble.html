@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyPage Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/img/dcs2.png">
+  <link href="assets/img/dcs2.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPage
+  * Template URL: https://bootstrapmade.com/mypage-bootstrap-personal-template/
+  * Updated: Sep 20 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+<style>
+  :root{--accent:#6f42c1}
+  .game-card{max-width:900px;margin:2rem auto;padding:1.5rem;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,.08)}
+    .scramble-box{font-size:2.25rem;font-weight:700;letter-spacing:6px}
+    .small-muted{font-size:.9rem;color:#6c757d}
+    .btn-accent{background:var(--accent);color:#fff}
+    .btn-accent:focus,.btn-accent:hover{background:#59329f;color:#fff}
+    .hint{font-style:italic;color:#495057}
+    .correct{color:green;font-weight:600}
+    .wrong{color:#c92a2a;font-weight:600}
+    @media (max-width:576px){.scramble-box{font-size:1.6rem;letter-spacing:4px}}
+</style>
+  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-top">
+    
+
+    </div>
+
+ <nav id="navmenu" class="navmenu btn-primary">
+
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house-fill"></i>&nbspHome</a></li>
+        <li><a href="Library.html"><i class="bi bi-collection-fill"></i>&nbspLibrary</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-calculator"></i><span>&nbspMaths</span> <i class="bi bi-chevron-down toggle-dropdown btn btn-primary"></i></a>
+          <ul>
+            <li><a href="multiplication.html">Multiplication</a></li>
+            <li><a href="division.html">Division</a></li>
+                <li><a href="square root.html">Square & Cube</a></li>
+                <li><a href="mental maths.html">Mental Maths</a></li> 
+          </ul>
+        </li>
+        <!-- <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Maths</a></li> -->
+
+        <li><a href="dictionary.html"><i class="bi bi-journal-check"></i>Dictionary</a></li>
+        <li><a href="word Scramble.html"><i class="bi bi-text-paragraph"></i>Word Scramble</a></li>
+        <li><a href="Thesaurus word.html"><i class="bi bi-anthropic"></i>Thesaurus</a></li>
+        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
+      </ul>
+    </nav>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section>
+      <div class="container">
+    <div class="game-card bg-white text-dark">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="m-0 text-dark">Word Scramble — Free Web Game</h3>
+        <div class="text-end small-muted">
+          <div>Score: <span id="score">0</span></div>
+          <div>High score: <span id="highscore">0</span></div>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-8">
+          <div class="p-3 border rounded-3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <div class="small-muted">Time left</div>
+              <div class="small-muted">Round: <span id="round">1</span>/<span id="totalRounds">10</span></div>
+            </div>
+            <div class="progress mb-3" style="height:10px">
+              <div id="timebar" class="progress-bar" role="progressbar" style="width:100%"></div>
+            </div>
+
+            <div class="text-center mb-3">
+              <div id="scrambled" class="scramble-box">— — —</div>
+              <div class="hint mt-2" id="hint">Hint: —</div>
+            </div>
+
+            <form id="guessForm" class="d-flex gap-2">
+              <input id="guessInput" class="form-control form-control-lg" type="text" placeholder="Type your guess" autocomplete="off">
+              <button id="submitBtn" class="btn btn-accent btn-lg">Submit</button>
+              <button id="skipBtn" class="btn btn-outline-secondary">Skip</button>
+            </form>
+
+            <div class="mt-3 small-muted">Feedback: <span id="feedback">Good luck!</span></div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="p-3 border rounded-3 h-100 d-flex flex-column justify-content-between">
+            <div>
+              <h6>Game Info</h6>
+              <p class="small-muted">Unscramble the letters to form a valid word. Each correct answer gives points based on word length. You have limited time each round.</p>
+
+              <ul class="list-unstyled small-muted mb-0">
+                <li>• Rounds: <span id="roundsInfo">10</span></li>
+                <li>• Time / round: <span id="timePerRound">45</span>s</li>
+                <li>• Skip: no penalty (configurable)</li>
+              </ul>
+            </div>
+
+            <div class="mt-3">
+              <button id="restartBtn" class="btn btn-outline-danger w-100 mb-2">Restart Game</button>
+              <button id="shareBtn" class="btn btn-outline-primary w-100">Copy Share Link</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <!-- <div class="d-flex justify-content-between align-items-center small-muted">
+        <div>Built with HTML, CSS, JavaScript & Bootstrap</div>
+        <div>Made for learning & fun — modify the word list in the script to customize.</div>
+      </div> -->
+    </div>
+  </div>
+    </section>
+<script>
+    // --- Configuration ---
+    const TIME_PER_ROUND = 45; // seconds
+    const TOTAL_ROUNDS = 10;
+
+    // Small word bank. You can expand this list with larger and themed words.
+    const WORDS = [
+      'computer','program','javascript','bootstrap','interface','developer','keyboard','algorithm','variable','function',
+      'internet','network','database','scramble','challenge','dynamic','creative','project','module','feature',
+      'puzzle','responsive','design','editor','upload','download','performance','security','testing','debug'
+    ];
+
+    // --- State ---
+    let currentWord = '';
+    let scrambled = '';
+    let score = 0;
+    let round = 0;
+    let timeLeft = TIME_PER_ROUND;
+    let timerInterval = null;
+
+    // --- Elements ---
+    const scrambledEl = document.getElementById('scrambled');
+    const hintEl = document.getElementById('hint');
+    const guessInput = document.getElementById('guessInput');
+    const feedback = document.getElementById('feedback');
+    const scoreEl = document.getElementById('score');
+    const highscoreEl = document.getElementById('highscore');
+    const roundEl = document.getElementById('round');
+    const totalRoundsEl = document.getElementById('totalRounds');
+    const timebar = document.getElementById('timebar');
+
+    document.getElementById('totalRounds').textContent = TOTAL_ROUNDS;
+    document.getElementById('roundsInfo').textContent = TOTAL_ROUNDS;
+    document.getElementById('timePerRound').textContent = TIME_PER_ROUND;
+
+    // --- Utility functions ---
+    function shuffleString(str) {
+      const arr = str.split('');
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr.join('');
+    }
+
+    function scrambleWord(word) {
+      if (word.length < 2) return word;
+      let s = shuffleString(word);
+      // ensure scrambled is different from original; if not, reshuffle up to 10 times
+      let tries = 0;
+      while (s === word && tries < 10) { s = shuffleString(word); tries++; }
+      return s;
+    }
+
+    function pickWord() {
+      // pick a random unused word until rounds exhausted
+      const idx = Math.floor(Math.random() * WORDS.length);
+      return WORDS[idx];
+    }
+
+    function startTimer() {
+      clearInterval(timerInterval);
+      timeLeft = TIME_PER_ROUND;
+      updateTimeUI();
+      timerInterval = setInterval(() => {
+        timeLeft--;
+        updateTimeUI();
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          onTimeUp();
+        }
+      }, 1000);
+    }
+
+    function updateTimeUI() {
+      const pct = Math.max(0, (timeLeft / TIME_PER_ROUND) * 100);
+      timebar.style.width = pct + '%';
+      timebar.textContent = timeLeft + 's';
+      if (pct < 30) { timebar.classList.add('bg-danger'); } else { timebar.classList.remove('bg-danger'); }
+    }
+
+    function saveHighscore() {
+      const hs = Math.max(score, Number(localStorage.getItem('ws_highscore') || 0));
+      localStorage.setItem('ws_highscore', hs);
+      highscoreEl.textContent = hs;
+    }
+
+    function loadHighscore() {
+      const hs = Number(localStorage.getItem('ws_highscore') || 0);
+      highscoreEl.textContent = hs;
+    }
+
+    // --- Game flow ---
+    function newRound() {
+      if (round >= TOTAL_ROUNDS) return endGame();
+      round++;
+      roundEl.textContent = round;
+      currentWord = pickWord();
+      scrambled = scrambleWord(currentWord);
+      scrambledEl.textContent = scrambled.split('').join(' ');
+      hintEl.textContent = 'Hint: ' + currentWord[0].toUpperCase() + '...' + currentWord[currentWord.length-1].toUpperCase();
+      feedback.textContent = 'Type your guess and submit!';
+      guessInput.value = '';
+      guessInput.focus();
+      startTimer();
+    }
+
+    function checkGuess(e) {
+      if (e) e.preventDefault();
+      const guess = guessInput.value.trim().toLowerCase();
+      if (!guess) { feedback.textContent = 'Please enter a guess.'; feedback.className = 'text-muted'; return; }
+      if (guess === currentWord.toLowerCase()) {
+        const points = currentWord.length * 10 + Math.max(0, Math.floor(timeLeft));
+        score += points;
+        scoreEl.textContent = score;
+        feedback.textContent = `Correct! +${points} points.`;
+        feedback.className = 'correct';
+        clearInterval(timerInterval);
+        saveHighscore();
+        setTimeout(newRound, 900);
+      } else {
+        feedback.textContent = 'Incorrect — try again!';
+        feedback.className = 'wrong';
+      }
+    }
+
+    function onTimeUp() {
+      feedback.textContent = `Time's up! Answer: ${currentWord}`;
+      feedback.className = 'wrong';
+      setTimeout(newRound, 1200);
+    }
+
+    function skipRound(e) {
+      if (e) e.preventDefault();
+      feedback.textContent = `Skipped — answer was: ${currentWord}`;
+      feedback.className = 'text-muted';
+      clearInterval(timerInterval);
+      setTimeout(newRound, 700);
+    }
+
+    function endGame() {
+      clearInterval(timerInterval);
+      feedback.textContent = `Game over — your score: ${score}`;
+      feedback.className = 'small-muted';
+      saveHighscore();
+      // show a modal-like simple alert
+      setTimeout(()=>{
+        const again = confirm(`Game over! Your score: ${score}.\nPlay again?`);
+        if (again) restartGame();
+      },200);
+    }
+
+    function restartGame() {
+      score = 0; round = 0; scoreEl.textContent = score; roundEl.textContent = 0;
+      newRound();
+    }
+
+    // --- Event bindings ---
+    document.getElementById('guessForm').addEventListener('submit', checkGuess);
+    document.getElementById('skipBtn').addEventListener('click', skipRound);
+    document.getElementById('restartBtn').addEventListener('click', (e)=>{ e.preventDefault(); if(confirm('Restart game?')) restartGame(); });
+    document.getElementById('shareBtn').addEventListener('click', ()=>{
+      const txt = `Play this Word Scramble game! Open the HTML file I made.`;
+      navigator.clipboard?.writeText(txt).then(()=> alert('Share text copied to clipboard.'))
+    });
+
+    // Keyboard shortcut: Enter to submit, Esc to clear
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') guessInput.value = '';
+      if (e.key === 'Enter' && document.activeElement === guessInput) {
+        // form submit will handle it
+      }
+    });
+
+    // init
+    loadHighscore();
+    newRound();
+  </script>
+    
+  </script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
